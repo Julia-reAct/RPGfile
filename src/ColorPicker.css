@@ -1,0 +1,60 @@
+.ColorPicker__ShowRGB{
+    display: grid;
+    justify-items: center;
+}
+.ColorPicker__Show{
+    display: grid;
+    justify-items: center;
+}
+.ColorPicker__color{
+    width: 200px;
+    height: 200px;
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+.ColorPicker__column{
+    color: #388385;
+    display: grid;
+    grid-template-columns: 0.1fr 0.4fr 0.1fr 0.4fr 0.1fr 0.4fr;
+    align-items: center;
+    justify-items: center;
+    width: 450px;
+}
+input[type=range] {
+    -webkit-appearance: none;
+    width: 100px;
+    border-radius: 8px;
+    height: 7px;
+    border: 1px solid cadetblue;
+    background-color: #fff;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: cadetblue;
+    border: 1px solid #bdc3c7;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.ColorPicker__button{
+    margin-top: 20px;
+}
+.ColorPicker__buttonCancel{
+    margin-right: 30px;
+}
+.button{
+    font-size:14px;
+    width: 100px;
+    color: white;
+    background: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 7px;
+    padding:5px 0px;
+    box-shadow: 2px 2px 1px 1px #cadede;
+}
+.button:active{
+    color: cadetblue;
+    background: white;
+}
+
